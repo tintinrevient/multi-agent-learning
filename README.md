@@ -3,7 +3,7 @@
 ## Code
 
 The code comes into the following six parts:
-* Strategies: Different algorithms are defined in Strategies, which (1) decide the next action to take; (2) update the internal state after the payo↵ is received.
+* Strategies: Different algorithms are defined in Strategies, which (1) decide the next action to take; (2) update the internal state after the payoff is received.
 * Matrix Suite: Different games are defined in Matrix Suite, which are represented as payoff matrices.
 * Game: Two players play against each other in Game, in which they take action and receive payoff based on
 Matrix Suite. It is for one game.
